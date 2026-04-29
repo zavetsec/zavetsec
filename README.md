@@ -1,17 +1,12 @@
 <!-- ZavetSec GitHub Profile README -->
 
 <div align="center">
+  <img src="zavetsec_banner.png" alt="ZavetSec"/>
 
-```
-███████╗ █████╗ ██╗   ██╗███████╗████████╗███████╗███████╗ ██████╗
-╚══███╔╝██╔══██╗██║   ██║██╔════╝╚══██╔══╝██╔════╝██╔════╝██╔════╝
-  ███╔╝ ███████║██║   ██║█████╗     ██║   ███████╗█████╗  ██║
- ███╔╝  ██╔══██║╚██╗ ██╔╝██╔══╝     ██║   ╚════██║██╔══╝  ██║
-███████╗██║  ██║ ╚████╔╝ ███████╗   ██║   ███████║███████╗╚██████╗
-╚══════╝╚═╝  ╚═╝  ╚═══╝  ╚══════╝   ╚═╝   ╚══════╝╚══════╝ ╚═════╝
-```
 
 **Anonymous SOC/DFIR toolsmith. Open-source. No install. No dependencies. No noise.**
+
+
 
 ![](https://img.shields.io/badge/focus-SOC%20%2F%20DFIR%20%2F%20Blue%20Team-00ff88?style=flat-square&labelColor=0d1117)
 ![](https://img.shields.io/badge/stack-PowerShell%20%7C%20Bash%20%7C%20Python-00ff88?style=flat-square&labelColor=0d1117)

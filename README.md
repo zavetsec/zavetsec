@@ -29,6 +29,8 @@
 
 ## Tools
 
+### SOC / DFIR / Hardening
+
 | Tool | Platform | Capability |
 |------|----------|------------|
 | [**Invoke-ZavetSecTriage**](https://github.com/zavetsec/Invoke-ZavetSecTriage) | Windows / PS 5.1 | `DFIR triage • 17 modules • MITRE ATT&CK` |
@@ -40,6 +42,12 @@
 | [**ZavetSec-BrowserHistory**](https://github.com/zavetsec/ZavetSec-BrowserHistory) | Windows / PS 5.1 | `Browser forensics • all users • all browsers` |
 | [**Invoke-MBHashCheck**](https://github.com/zavetsec/Invoke-MBHashCheck) | Windows / PS 5.1 | `Hash lookup • MalwareBazaar • ThreatFox` |
 | [**ZavetSec-Vault**](https://github.com/zavetsec/ZavetSec-Vault) | Any browser | `Offline password manager • AES-256-GCM • no cloud` |
+
+### Personal Security & Privacy
+
+| Tool | Platform | Capability |
+|------|----------|------------|
+| [**opsec-checklist**](https://github.com/zavetsec/opsec-checklist) | Any browser | `OPSEC assessment framework • 68+ items • RU/CIS + US/EU editions` |
 
 ---
 
@@ -67,6 +75,7 @@ Browser Forensics     ZavetSec-BrowserHistory
 Hash Intel            Invoke-MBHashCheck
 Hardening             ZavetSec-Harden
 Secure Storage        ZavetSec-Vault
+Personal OPSEC        opsec-checklist
 ```
 
 ---

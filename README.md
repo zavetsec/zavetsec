@@ -47,7 +47,7 @@
 
 | Tool | Platform | Capability |
 |------|----------|------------|
-| [**opsec-checklist**](https://github.com/zavetsec/opsec-checklist) | Any browser | `OPSEC assessment framework • 68+ items • RU/CIS + US/EU editions` |
+| [**opsec-checklist**](https://github.com/zavetsec/opsec-checklist) | Any browser | `OPSEC assessment framework • 70+ items • RU/CIS + US/EU editions` |
 
 ---
 

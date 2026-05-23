@@ -9,7 +9,7 @@
 `No install. No dependencies. No agents. No telemetry.`
 
 ![](https://img.shields.io/badge/focus-SOC%20%2F%20DFIR%20%2F%20Blue%20Team-00ff88?style=flat-square&labelColor=0d1117)
-![](https://img.shields.io/badge/stack-PowerShell%20%7C%20Bash%20%7C%20HTML-00ff88?style=flat-square&labelColor=0d1117)
+![](https://img.shields.io/badge/stack-PowerShell%20%7C%20Bash%20%7C%20C%23%20%7C%20HTML-00ff88?style=flat-square&labelColor=0d1117)
 ![](https://img.shields.io/badge/license-MIT-00ff88?style=flat-square&labelColor=0d1117)
 ![](https://img.shields.io/badge/reports-dark%20HTML%20%2B%20MITRE%20ATT%26CK-00ff88?style=flat-square&labelColor=0d1117)
 
@@ -28,6 +28,12 @@
 ---
 
 ## Tools
+
+### Endpoint Monitoring & DLP
+
+| Tool | Platform | Capability |
+|------|----------|------------|
+| [**ZavetSec-DLP**](https://github.com/zavetsec/zavetsec-dlp) | Windows / .NET 8 | `Endpoint activity monitoring • keylogger • screenshots • clipboard • USB • DNS • network • web dashboard • EN/RU` |
 
 ### SOC / DFIR / Hardening
 
@@ -66,6 +72,7 @@ All tools share a consistent output format:
 ## Coverage
 
 ```
+Endpoint Monitoring   ZavetSec-DLP
 Windows Triage        Invoke-ZavetSecTriage
 Linux Triage          ZLT
 Active Directory      Invoke-ADSecurityAudit

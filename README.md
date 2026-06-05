@@ -40,7 +40,7 @@
 | Tool | Platform | Capability |
 |------|----------|------------|
 | [**Invoke-ZavetSecTriage**](https://github.com/zavetsec/Invoke-ZavetSecTriage) | Windows / PS 5.1 | `DFIR triage • 17 modules • MITRE ATT&CK` |
-| [**ZavetSec-EVTXHunter**](https://github.com/zavetsec/ZavetSec-EVTXHunter) | Windows / PS 5.1 | `EVTX threat hunting • 54 rules • correlation • risk scoring • MITRE ATT&CK` |
+| [**ZavetSec-EVTXHunter**](https://github.com/zavetsec/ZavetSec-EVTXHunter) | Windows / PS 5.1 | `EVTX threat hunting • file & live • 61 rules / 10 chains • entity risk scoring • MITRE ATT&CK` |
 | [**ZavetSec-Harden**](https://github.com/zavetsec/ZavetSec-Harden) | Windows / PS 5.1 | `Hardening baseline • CIS / DISA STIG • Audit / Apply / Rollback` |
 | [**ZLT**](https://github.com/zavetsec/ZLT) | Linux / Bash | `Linux triage • 12 modules • single command` |
 | [**Invoke-ADSecurityAudit**](https://github.com/zavetsec/Invoke-ADSecurityAudit) | Windows / PS 5.1 | `Active Directory audit • findings • remediation` |

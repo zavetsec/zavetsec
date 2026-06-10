@@ -4,14 +4,18 @@
 
 <div align="center">
 
-**Anonymous SOC/DFIR toolsmith. Single-file defensive tooling for air-gapped, incident response, and hardened environments.**
+**Anonymous purple-team toolsmith. Single-file tooling and references for air-gapped, incident-response, and hardened environments — defense built on understanding offense.**
 
 `No install. No dependencies. No agents. No telemetry.`
 
-![](https://img.shields.io/badge/focus-SOC%20%2F%20DFIR%20%2F%20Blue%20Team-00ff88?style=flat-square&labelColor=0d1117)
+![](https://img.shields.io/badge/team-Purple%20%28Red%20%2B%20Blue%29-00ff88?style=flat-square&labelColor=0d1117)
+![](https://img.shields.io/badge/discipline-SOC%20%2F%20DFIR%20%2F%20Pentest-00ff88?style=flat-square&labelColor=0d1117)
 ![](https://img.shields.io/badge/stack-PowerShell%20%7C%20Bash%20%7C%20C%23%20%7C%20HTML-00ff88?style=flat-square&labelColor=0d1117)
 ![](https://img.shields.io/badge/license-MIT-00ff88?style=flat-square&labelColor=0d1117)
 ![](https://img.shields.io/badge/reports-dark%20HTML%20%2B%20MITRE%20ATT%26CK-00ff88?style=flat-square&labelColor=0d1117)
+![](https://img.shields.io/badge/knowledge%20base-Pentest%20Codex-00ff88?style=flat-square&labelColor=0d1117)
+
+*Offensive techniques and the detections that catch them — two halves of one workflow.*
 
 </div>
 
@@ -19,15 +23,18 @@
 
 ## Why ZavetSec
 
-- Single-file execution — one script, run and done
+- **Purple by design** — attack techniques paired with the telemetry and detections that expose them
+- Single-file execution — one script (or one HTML), run and done
 - No installation, no prerequisites, no admin infrastructure
 - Air-gap friendly — works fully offline
-- MITRE ATT&CK aligned — findings mapped to tactics and techniques
-- Dark HTML reporting — structured, self-contained, ready to share
+- MITRE ATT&CK aligned — both findings and techniques mapped to tactics
+- Dark HTML output — structured, self-contained, ready to share
 
 ---
 
-## Tools
+## ◣ Blue — Defensive Tooling
+
+Detection, triage, hardening and forensics. Built for SOC/DFIR work in real environments.
 
 ### Endpoint Monitoring & DLP
 
@@ -58,9 +65,28 @@
 
 ---
 
+## ◥ Red — Offensive Reference
+
+The other half: a self-contained library of pentest references — built to **understand the attacks worth defending against**. Same design standard as the tooling: one HTML file per document, fully offline, zero dependencies, no trackers.
+
+### Pentest Codex — Reference Library
+
+🌐 **Live:** [zavetsec.github.io/pentestcodex](https://zavetsec.github.io/pentestcodex/) &nbsp;·&nbsp; 📦 **Repo:** [zavetsec/pentestcodex](https://github.com/zavetsec/pentestcodex)
+
+| Document | Type | Contents |
+|----------|------|----------|
+| [**Pentest Codex**](https://zavetsec.github.io/pentestcodex/zavetsec-pentest-codex.html) | Reference | `Full kill-chain • every tool explained • every command with flags • 16 sections` |
+| [**AD Attack Reference**](https://zavetsec.github.io/pentestcodex/zavetsec-ad-attack-reference.html) | Reference / AD | `ADCS ESC1–ESC16 • delegation • RBCD • Shadow Credentials • ACL abuse • GPO/SCCM • MSSQL lateral` |
+| [**Pentest Path**](https://zavetsec.github.io/pentestcodex/zavetsec-pentest-path.html) | Roadmap | `Blue→Red progression • PNPT → OSCP → CRTO • labs • habit checklist` |
+| [**Arsenal**](https://zavetsec.github.io/pentestcodex/zavetsec-pentest-arsenal.html) | Cheat-sheet | `Command-first reference across the attack phases` |
+| [**Kali Linux 2026 Guide**](https://zavetsec.github.io/pentestcodex/zavetsec-kali-2026-guide.html) | Distro | `Install • metapackages • tooling by menu category` |
+| [**Parrot OS 7 Guide**](https://zavetsec.github.io/pentestcodex/zavetsec-parrot-7-guide.html) | Distro | `Editions • AnonSurf / privacy • tooling • vs Kali` |
+
+---
+
 ## Design Standard
 
-All tools share a consistent output format:
+Everything ZavetSec ships — tools and references alike — shares one output format:
 
 - `#0a0d10` dark background — readable in SOC environments at 3 AM
 - `#00ff88` green accent — high contrast, low eye strain
@@ -73,25 +99,29 @@ All tools share a consistent output format:
 ## Coverage
 
 ```
-Endpoint Monitoring   ZavetSec-DLP
-Windows Triage        Invoke-ZavetSecTriage
-Event Log Hunting     ZavetSec-EVTXHunter
-Linux Triage          ZLT
-Active Directory      Invoke-ADSecurityAudit
-Network Discovery     ZavetSec-NetworkInventory
-Live Connections      ZavetSec-NetworkConnections
-Browser Forensics     ZavetSec-BrowserHistory
-Hash Intel            Invoke-MBHashCheck
-Hardening             ZavetSec-Harden
-Secure Storage        ZavetSec-Vault
-Personal OPSEC        opsec-checklist
+BLUE — Defensive Tooling
+  Endpoint Monitoring   ZavetSec-DLP
+  Windows Triage        Invoke-ZavetSecTriage
+  Event Log Hunting     ZavetSec-EVTXHunter
+  Linux Triage          ZLT
+  Active Directory      Invoke-ADSecurityAudit
+  Network Discovery     ZavetSec-NetworkInventory
+  Live Connections      ZavetSec-NetworkConnections
+  Browser Forensics     ZavetSec-BrowserHistory
+  Hash Intel            Invoke-MBHashCheck
+  Hardening             ZavetSec-Harden
+  Secure Storage        ZavetSec-Vault
+  Personal OPSEC        opsec-checklist
+
+RED — Offensive Reference
+  Pentest Codex         zavetsec.github.io/pentestcodex
 ```
 
 ---
 
 <div align="center">
 
-*Built for defenders. Designed for real-world operations.*  
+*Attack-informed defense. Detection-aware offense.*  
 *MIT Licensed — open, practical, unrestricted.*
 
 </div>

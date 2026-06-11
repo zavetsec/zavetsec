@@ -78,6 +78,7 @@ The other half: a self-contained library of pentest references — built to **un
 | [**Pentest Codex**](https://zavetsec.github.io/pentestcodex/zavetsec-pentest-codex.html) | Reference | `Full kill-chain • every tool explained • every command with flags • 16 sections` |
 | [**AD Attack Reference**](https://zavetsec.github.io/pentestcodex/zavetsec-ad-attack-reference.html) | Reference / AD | `ADCS ESC1–ESC16 • delegation • RBCD • Shadow Credentials • ACL abuse • GPO/SCCM • MSSQL lateral` |
 | [**Cloud & Identity Reference**](https://zavetsec.github.io/pentestcodex/zavetsec-cloud-identity-reference.html) | Reference / Cloud | `AWS IAM privesc • Azure / Entra ID • token attacks • role abuse • hybrid AD↔Entra • Pacu / CloudFox / ROADtools / AzureHound` |
+| [**API Security Reference**](https://zavetsec.github.io/pentestcodex/zavetsec-api-security-reference.html) | Reference / API | `OWASP API Top 10 (2023) • BOLA/IDOR • JWT/OAuth • mass assignment • BFLA • SSRF • injection • GraphQL` |
 | [**Pentest Path**](https://zavetsec.github.io/pentestcodex/zavetsec-pentest-path.html) | Roadmap | `Blue→Red progression • PNPT → OSCP → CRTO • labs • habit checklist` |
 | [**Arsenal**](https://zavetsec.github.io/pentestcodex/zavetsec-pentest-arsenal.html) | Cheat-sheet | `Command-first reference across the attack phases` |
 | [**Kali Linux 2026 Guide**](https://zavetsec.github.io/pentestcodex/zavetsec-kali-2026-guide.html) | Distro | `Install • metapackages • tooling by menu category` |

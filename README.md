@@ -10,10 +10,11 @@
 
 ![](https://img.shields.io/badge/team-Purple%20%28Red%20%2B%20Blue%29-00ff88?style=flat-square&labelColor=0d1117)
 ![](https://img.shields.io/badge/discipline-SOC%20%2F%20DFIR%20%2F%20Pentest-00ff88?style=flat-square&labelColor=0d1117)
-![](https://img.shields.io/badge/stack-PowerShell%20%7C%20Bash%20%7C%20C%23%20%7C%20HTML-00ff88?style=flat-square&labelColor=0d1117)
+![](https://img.shields.io/badge/stack-PowerShell%20%7C%20Python%20%7C%20Bash%20%7C%20C%23%20%7C%20HTML-00ff88?style=flat-square&labelColor=0d1117)
 ![](https://img.shields.io/badge/license-MIT-00ff88?style=flat-square&labelColor=0d1117)
 ![](https://img.shields.io/badge/reports-dark%20HTML%20%2B%20MITRE%20ATT%26CK-00ff88?style=flat-square&labelColor=0d1117)
 ![](https://img.shields.io/badge/knowledge%20base-Pentest%20Codex-00ff88?style=flat-square&labelColor=0d1117)
+![](https://img.shields.io/badge/frameworks-NIST%20CSF%202.0-00ff88?style=flat-square&labelColor=0d1117)
 
 *Offensive techniques and the detections that catch them — two halves of one workflow.*
 
@@ -48,6 +49,7 @@ Detection, triage, hardening and forensics. Built for SOC/DFIR work in real envi
 |------|----------|------------|
 | [**Invoke-ZavetSecTriage**](https://github.com/zavetsec/Invoke-ZavetSecTriage) | Windows / PS 5.1 | `DFIR triage • 17 modules • MITRE ATT&CK` |
 | [**ZavetSec-EVTXHunter**](https://github.com/zavetsec/ZavetSec-EVTXHunter) | Windows / PS 5.1 | `EVTX threat hunting • file & live • 61 rules / 10 chains • entity risk scoring • MITRE ATT&CK` |
+| [**ZavetSec-MailInspector**](https://github.com/zavetsec/ZavetSec-MailInspector) | Any / Python 3.8+ | `Phishing & malware triage • .eml / .msg • SPF/DKIM/DMARC + spoofing • URLs + attachments • quishing (QR) • recursive archives • RU/EN` |
 | [**ZavetSec-Harden**](https://github.com/zavetsec/ZavetSec-Harden) | Windows / PS 5.1 | `Hardening baseline • CIS / DISA STIG • Audit / Apply / Rollback` |
 | [**ZLT**](https://github.com/zavetsec/ZLT) | Linux / Bash | `Linux triage • 12 modules • single command` |
 | [**Invoke-ADSecurityAudit**](https://github.com/zavetsec/Invoke-ADSecurityAudit) | Windows / PS 5.1 | `Active Directory audit • findings • remediation` |
@@ -56,6 +58,18 @@ Detection, triage, hardening and forensics. Built for SOC/DFIR work in real envi
 | [**ZavetSec-BrowserHistory**](https://github.com/zavetsec/ZavetSec-BrowserHistory) | Windows / PS 5.1 | `Browser forensics • all users • all browsers` |
 | [**Invoke-MBHashCheck**](https://github.com/zavetsec/Invoke-MBHashCheck) | Windows / PS 5.1 | `Hash lookup • MalwareBazaar • ThreatFox` |
 | [**ZavetSec-Vault**](https://github.com/zavetsec/ZavetSec-Vault) | Any browser | `Offline password manager • AES-256-GCM • no cloud` |
+
+### CSF Kit — SOC Reference Library
+
+The defensive counterpart to the Pentest Codex: a self-contained set of operational references for running a SOC on **NIST CSF 2.0**. Same design standard — one HTML file per document, fully offline, zero dependencies, no trackers. Stack-agnostic by design (tool *classes*, not products).
+
+🌐 **Live:** [zavetsec.github.io/CSFKit](https://zavetsec.github.io/CSFKit/) &nbsp;·&nbsp; 📦 **Repo:** [zavetsec/CSFKit](https://github.com/zavetsec/CSFKit)
+
+| Document | Type | Contents |
+|----------|------|----------|
+| [**NIST CSF 2.0 for SOC**](https://zavetsec.github.io/CSFKit/nist-csf-soc-framework.html) | Reference / Framework | `Operational model • all 6 functions • category codes • SOC ownership • Tier 1–4 maturity • phased roadmap • metrics catalog • RACI` |
+| [**SOC Maturity Self-Assessment**](https://zavetsec.github.io/CSFKit/soc-maturity-self-assessment.html) | Interactive | `31-item maturity check • live Tier scoring • weakest-link logic • copy-out summary • local persistence` |
+| [**CSF Detection Coverage Map**](https://zavetsec.github.io/CSFKit/csf-coverage-map.html) | Worksheet | `37 use-cases • CSF × MITRE ATT&CK • data source + tool class • Covered/Partial/Gap status • CSV export` |
 
 ### Personal Security & Privacy
 
@@ -106,6 +120,7 @@ BLUE — Defensive Tooling
   Endpoint Monitoring   ZavetSec-DLP
   Windows Triage        Invoke-ZavetSecTriage
   Event Log Hunting     ZavetSec-EVTXHunter
+  Email / Phishing      ZavetSec-MailInspector
   Linux Triage          ZLT
   Active Directory      Invoke-ADSecurityAudit
   Network Discovery     ZavetSec-NetworkInventory
@@ -115,6 +130,9 @@ BLUE — Defensive Tooling
   Hardening             ZavetSec-Harden
   Secure Storage        ZavetSec-Vault
   Personal OPSEC        opsec-checklist
+
+BLUE — Frameworks & References
+  SOC / NIST CSF 2.0    CSF Kit (zavetsec.github.io/CSFKit)
 
 RED — Offensive Reference
   Pentest Codex         zavetsec.github.io/pentestcodex

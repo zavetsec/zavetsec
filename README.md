@@ -59,9 +59,9 @@ Detection, triage, hardening and forensics. Built for SOC/DFIR work in real envi
 | [**Invoke-MBHashCheck**](https://github.com/zavetsec/Invoke-MBHashCheck) | Windows / PS 5.1 | `Hash lookup • MalwareBazaar • ThreatFox` |
 | [**ZavetSec-Vault**](https://github.com/zavetsec/ZavetSec-Vault) | Any browser | `Offline password manager • AES-256-GCM • no cloud` |
 
-### CSF Kit — SOC Reference Library
+### CSFKit — SOC Reference Library
 
-The defensive counterpart to the Pentest Codex: a self-contained set of operational references for running a SOC on **NIST CSF 2.0**. Same design standard — one HTML file per document, fully offline, zero dependencies, no trackers. Stack-agnostic by design (tool *classes*, not products).
+The defensive counterpart to the Pentest Codex: a self-contained set of operational references for running a SOC on **NIST CSF 2.0** — built **interactive**, with live Tier scoring and an editable detection-coverage worksheet, not just static docs. Same design standard — one HTML file per document, fully offline, zero dependencies, no trackers. Stack-agnostic by design (tool *classes*, not products).
 
 🌐 **Live:** [zavetsec.github.io/CSFKit](https://zavetsec.github.io/CSFKit/) &nbsp;·&nbsp; 📦 **Repo:** [zavetsec/CSFKit](https://github.com/zavetsec/CSFKit)
 
@@ -69,7 +69,7 @@ The defensive counterpart to the Pentest Codex: a self-contained set of operatio
 |----------|------|----------|
 | [**NIST CSF 2.0 for SOC**](https://zavetsec.github.io/CSFKit/nist-csf-soc-framework.html) | Reference / Framework | `Operational model • all 6 functions • category codes • SOC ownership • Tier 1–4 maturity • phased roadmap • metrics catalog • RACI` |
 | [**SOC Maturity Self-Assessment**](https://zavetsec.github.io/CSFKit/soc-maturity-self-assessment.html) | Interactive | `31-item maturity check • live Tier scoring • weakest-link logic • copy-out summary • local persistence` |
-| [**CSF Detection Coverage Map**](https://zavetsec.github.io/CSFKit/csf-coverage-map.html) | Worksheet | `37 use-cases • CSF × MITRE ATT&CK • data source + tool class • Covered/Partial/Gap status • CSV export` |
+| [**CSF Detection Coverage Map**](https://zavetsec.github.io/CSFKit/csf-coverage-map.html) | Interactive | `37 use-cases • CSF × MITRE ATT&CK • data source + tool class • Covered/Partial/Gap status • CSV export` |
 
 ### Personal Security & Privacy
 
@@ -132,7 +132,7 @@ BLUE — Defensive Tooling
   Personal OPSEC        opsec-checklist
 
 BLUE — Frameworks & References
-  SOC / NIST CSF 2.0    CSF Kit (zavetsec.github.io/CSFKit)
+  SOC / NIST CSF 2.0    CSFKit (zavetsec.github.io/CSFKit)
 
 RED — Offensive Reference
   Pentest Codex         zavetsec.github.io/pentestcodex

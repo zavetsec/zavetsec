@@ -65,7 +65,7 @@ Running and measuring a SOC — operational performance metrics and the referenc
 
 | Tool | Platform | Capability |
 |------|----------|------------|
-| [**ZavetSec-SOCMetrics**](https://github.com/zavetsec/SOCMetrics) | Any browser | `SOC KPI & SLA metrics • incident-driven • mean / median / p90 • SLA auto • MITRE ATT&CK breakdown • offline • RU` |
+| [**SOCMetrics**](https://github.com/zavetsec/SOCMetrics) | Any browser | `SOC KPI & SLA metrics • incident-driven • mean / median / p90 • SLA auto • MITRE ATT&CK breakdown • offline • RU` |
 
 ### CSFKit — SOC Reference Library
 
@@ -135,7 +135,7 @@ BLUE — Defensive Tooling
   Live Connections      ZavetSec-NetworkConnections
   Browser Forensics     ZavetSec-BrowserHistory
   Hash Intel            Invoke-MBHashCheck
-  SOC Metrics / SLA     ZavetSec-SOCMetrics
+  SOC Metrics / SLA     SOCMetrics
   Hardening             ZavetSec-Harden
   Secure Storage        ZavetSec-Vault
   Personal OPSEC        opsec-checklist

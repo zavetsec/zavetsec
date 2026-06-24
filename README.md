@@ -59,6 +59,14 @@ Detection, triage, hardening and forensics. Built for SOC/DFIR work in real envi
 | [**Invoke-MBHashCheck**](https://github.com/zavetsec/Invoke-MBHashCheck) | Windows / PS 5.1 | `Hash lookup • MalwareBazaar • ThreatFox` |
 | [**ZavetSec-Vault**](https://github.com/zavetsec/ZavetSec-Vault) | Any browser | `Offline password manager • AES-256-GCM • no cloud` |
 
+### SOC Operations & Metrics
+
+Running and measuring a SOC — operational performance metrics and the references behind them.
+
+| Tool | Platform | Capability |
+|------|----------|------------|
+| [**ZavetSec-SOCMetrics**](https://github.com/zavetsec/SOCMetrics) | Any browser | `SOC KPI & SLA metrics • incident-driven • mean / median / p90 • SLA auto • MITRE ATT&CK breakdown • offline • RU` |
+
 ### CSFKit — SOC Reference Library
 
 The defensive counterpart to the Pentest Codex: a self-contained set of operational references for running a SOC on **NIST CSF 2.0** — built **interactive**, with live Tier scoring and an editable detection-coverage worksheet, not just static docs. Same design standard — one HTML file per document, fully offline, zero dependencies, no trackers. Stack-agnostic by design (tool *classes*, not products).
@@ -127,6 +135,7 @@ BLUE — Defensive Tooling
   Live Connections      ZavetSec-NetworkConnections
   Browser Forensics     ZavetSec-BrowserHistory
   Hash Intel            Invoke-MBHashCheck
+  SOC Metrics / SLA     ZavetSec-SOCMetrics
   Hardening             ZavetSec-Harden
   Secure Storage        ZavetSec-Vault
   Personal OPSEC        opsec-checklist

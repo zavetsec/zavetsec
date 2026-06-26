@@ -14,6 +14,7 @@
 ![](https://img.shields.io/badge/license-MIT-00ff88?style=flat-square&labelColor=0d1117)
 ![](https://img.shields.io/badge/reports-dark%20HTML%20%2B%20MITRE%20ATT%26CK-00ff88?style=flat-square&labelColor=0d1117)
 ![](https://img.shields.io/badge/knowledge%20base-Pentest%20Codex-00ff88?style=flat-square&labelColor=0d1117)
+![](https://img.shields.io/badge/detection%20codex-Rosetta-00ff88?style=flat-square&labelColor=0d1117)
 ![](https://img.shields.io/badge/frameworks-NIST%20CSF%202.0-00ff88?style=flat-square&labelColor=0d1117)
 
 *Offensive techniques and the detections that catch them — two halves of one workflow.*
@@ -79,6 +80,16 @@ The defensive counterpart to the Pentest Codex: a self-contained set of operatio
 | [**SOC Maturity Self-Assessment**](https://zavetsec.github.io/CSFKit/soc-maturity-self-assessment.html) | Interactive | `31-item maturity check • live Tier scoring • weakest-link logic • copy-out summary • local persistence` |
 | [**CSF Detection Coverage Map**](https://zavetsec.github.io/CSFKit/csf-coverage-map.html) | Interactive | `37 use-cases • CSF × MITRE ATT&CK • data source + tool class • Covered/Partial/Gap status • CSV export` |
 
+### Rosetta — Detection Codex
+
+The blue mirror of the Pentest Codex: every ATT&CK technique read from three angles — the attack command, the telemetry it leaves (source + Event ID), and the detection rule across four SIEM dialects. Built **interactive**, with a logging-prerequisites layer ("what to enable so the event even fires") and live coverage self-assessment — not just static rules. Same design standard — one HTML file, fully offline, zero dependencies, no trackers.
+
+🌐 **Live:** [zavetsec.github.io/rosetta](https://zavetsec.github.io/rosetta/) &nbsp;·&nbsp; 📦 **Repo:** [zavetsec/rosetta](https://github.com/zavetsec/rosetta)
+
+| Document | Type | Contents |
+|----------|------|----------|
+| [**Rosetta — Detection Codex**](https://zavetsec.github.io/rosetta/) | Interactive / Detection | `53 techniques × 12 tactics • Attack → Telemetry → Detection • Sigma / Splunk SPL / Sentinel KQL / Elastic-Wazuh • logging prerequisites • coverage self-assessment + JSON export • Sigma v2 correlation export • atomic vs behavioral • Windows / AD / Cloud-Identity • offline` |
+
 ### Personal Security & Privacy
 
 | Tool | Platform | Capability |
@@ -142,6 +153,7 @@ BLUE — Defensive Tooling
 
 BLUE — Frameworks & References
   SOC / NIST CSF 2.0    CSFKit (zavetsec.github.io/CSFKit)
+  Detection / ATT&CK    Rosetta (zavetsec.github.io/rosetta)
 
 RED — Offensive Reference
   Pentest Codex         zavetsec.github.io/pentestcodex

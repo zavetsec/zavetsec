@@ -51,8 +51,8 @@ Detection, triage, hardening and forensics. Built for SOC/DFIR work in real envi
 | [**Invoke-ZavetSecTriage**](https://github.com/zavetsec/Invoke-ZavetSecTriage) | Windows / PS 5.1 | `DFIR triage • 17 modules • MITRE ATT&CK` |
 | [**ZavetSec-EVTXHunter**](https://github.com/zavetsec/ZavetSec-EVTXHunter) | Windows / PS 5.1 | `EVTX threat hunting • file & live • 61 rules / 10 chains • entity risk scoring • MITRE ATT&CK` |
 | [**ZavetSec-MailInspector**](https://github.com/zavetsec/ZavetSec-MailInspector) | Any / Python 3.8+ | `Phishing & malware triage • .eml / .msg • SPF/DKIM/DMARC + spoofing • URLs + attachments • quishing (QR) • recursive archives • RU/EN` |
-| [**ZavetSec-Harden**](https://github.com/zavetsec/ZavetSec-Harden) | Windows / PS 5.1 | `Hardening baseline • CIS / DISA STIG • Audit / Apply / Rollback` |
-| [**ZavetSec-Harden-Ubuntu**](https://github.com/zavetsec/ZavetSec-Harden-Ubuntu) | Linux / Bash | `Ubuntu 20.04–24.04 hardening • CIS/STIG-aligned • audit + compliance score • dry-run by default • one-command rollback • role profiles • 11 modules` |
+| [**ZavetSec-Harden-Windows**](https://github.com/zavetsec/ZavetSec-Harden) | Windows / PS 5.1 | `Hardening baseline • CIS / DISA STIG • Audit / Apply / Rollback` |
+| [**ZavetSec-Harden-Ubuntu**](https://github.com/zavetsec/harden-ubuntu) | Linux / Bash | `Ubuntu 20.04–24.04 hardening • CIS/STIG-aligned • audit + compliance score • dry-run by default • one-command rollback • role profiles • 11 modules` |
 | [**ZLT**](https://github.com/zavetsec/ZLT) | Linux / Bash | `Linux triage • 12 modules • single command` |
 | [**Invoke-ADSecurityAudit**](https://github.com/zavetsec/Invoke-ADSecurityAudit) | Windows / PS 5.1 | `Active Directory audit • findings • remediation` |
 | [**ZavetSec-NetworkInventory**](https://github.com/zavetsec/ZavetSec-NetworkInventory) | Windows / PS 5.1 | `Network scanner • asset inventory • offline` |
@@ -148,7 +148,7 @@ BLUE — Defensive Tooling
   Browser Forensics     ZavetSec-BrowserHistory
   Hash Intel            Invoke-MBHashCheck
   SOC Metrics / SLA     SOCMetrics
-  Hardening (Windows)   ZavetSec-Harden
+  Hardening (Windows)   ZavetSec-Harden-Windows
   Hardening (Ubuntu)    ZavetSec-Harden-Ubuntu
   Secure Storage        ZavetSec-Vault
   Personal OPSEC        opsec-checklist

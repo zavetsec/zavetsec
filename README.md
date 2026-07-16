@@ -15,6 +15,7 @@
 ![](https://img.shields.io/badge/reports-dark%20HTML%20%2B%20MITRE%20ATT%26CK-00ff88?style=flat-square&labelColor=0d1117)
 ![](https://img.shields.io/badge/knowledge%20base-Pentest%20Codex-00ff88?style=flat-square&labelColor=0d1117)
 ![](https://img.shields.io/badge/detection%20codex-Rosetta-00ff88?style=flat-square&labelColor=0d1117)
+![](https://img.shields.io/badge/IR%20playbooks-SOC%20L2%20Checklists-00ff88?style=flat-square&labelColor=0d1117)
 ![](https://img.shields.io/badge/frameworks-NIST%20CSF%202.0-00ff88?style=flat-square&labelColor=0d1117)
 
 *Offensive techniques and the detections that catch them — two halves of one workflow.*
@@ -68,6 +69,16 @@ Running and measuring a SOC — operational performance metrics and the referenc
 | Tool | Platform | Capability |
 |------|----------|------------|
 | [**SOCMetrics**](https://github.com/zavetsec/SOCMetrics) | Any browser | `SOC KPI & SLA metrics • incident-driven • mean / median / p90 • SLA auto • MITRE ATT&CK breakdown • offline • RU` |
+
+### IR Playbooks — SOC L2 Incident Response Checklists
+
+What the analyst opens when the incident is already happening: 13 step-by-step response cards — from the first 5–15 minutes to eradication, hardening and lessons learned. **Vendor-neutral by design**: cards reference tool *functions* (triage kit, sandbox, RAM capture), and a tooling matrix maps each function to open-source and commercial options — fix your stack once, the checklists work anywhere. Same design standard — one HTML file, fully offline, mobile-ready, zero dependencies. **Written in Russian** — a native-language IR reference for Russian-speaking SOC teams. 🇷🇺
+
+🌐 **Live:** [zavetsec.github.io/soc-l2-ir-checklists](https://zavetsec.github.io/soc-l2-ir-checklists/) &nbsp;·&nbsp; 📦 **Repo:** [zavetsec/soc-l2-ir-checklists](https://github.com/zavetsec/soc-l2-ir-checklists)
+
+| Document | Type | Contents |
+|----------|------|----------|
+| [**SOC L2 IR Checklists**](https://zavetsec.github.io/soc-l2-ir-checklists/) | Playbook / DFIR | `13 incident cards • ransomware / phishing / lateral movement / AD compromise / VPN-SSO takeover / insider-DLP • first 5–15 min per card • mandatory false-positive criteria • vendor-neutral tooling matrix • hypervisor VM-snapshot memory capture • Windows Event ID + Linux persistence quick reference • deep-linkable cards • RU` |
 
 ### CSFKit — SOC Reference Library
 
@@ -154,6 +165,7 @@ BLUE — Defensive Tooling
   Personal OPSEC        opsec-checklist
 
 BLUE — Frameworks & References
+  IR Playbooks / DFIR   SOC L2 IR Checklists — RU (zavetsec.github.io/soc-l2-ir-checklists)
   SOC / NIST CSF 2.0    CSFKit (zavetsec.github.io/CSFKit)
   Detection / ATT&CK    Rosetta (zavetsec.github.io/rosetta)
 
